@@ -7,3 +7,32 @@
 body {
     background-color: #c86733;
 }
+
+#menuBar {
+position:absolute;
+left: 200px;
+top: 80px;
+}
+
+.menuItem {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 10px;
+    background-color: #EDEDED;
+    float:left;
+    text-align: center;
+    font-family: 'raleway';
+    cursor: pointer
+}
+
+#slider{
+    background-color: #f2ad86;
+    height: 5px;
+    width: 150px;
+    opacity.8;
+    margin-left: 0px;
+    border-radius: 1px;
+}
