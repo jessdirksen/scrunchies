@@ -11,7 +11,7 @@ body {
 #menuBar {
 position:absolute;
 left: 200px;
-top: 80px;
+top: 50px;
 }
 
 .menuItem {
@@ -24,15 +24,16 @@ top: 80px;
     background-color: #EDEDED;
     float:left;
     text-align: center;
-    font-family: 'raleway';
-    cursor: pointer
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    
 }
 
-#slider{
+#slider {
     background-color: #f2ad86;
     height: 5px;
     width: 150px;
-    opacity.8;
+    opacity:.8;
     margin-left: 0px;
     border-radius: 1px;
 }
