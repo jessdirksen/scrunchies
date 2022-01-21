@@ -5,35 +5,50 @@
 }
 
 body {
-    background-color: #c86733;
+    background-color: #c96939;
+    display:flex;
 }
 
-#menuBar {
-position:absolute;
-left: 200px;
-top: 50px;
+#logo {
+width: 250px;
+height: 60px;
+object-fit: cover;
+
+}
+
+#bar {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    /*como centralizar sem "left"?
+    como arrumar o bug do espaço a direita?*/
+
 }
 
 .menuItem {
-    position: relative;
-    width: 150px;
+    position:relative;
+    width: 300px;
     height: 30px;
     text-transform: uppercase;
-    font-size: 15px;
-    padding-top: 10px;
-    background-color: #EDEDED;
-    float:left;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: #ededed;
+    float: left;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
-    
+    justify-content: space-between;
+    font-family: sans-serif;
+    cursor:pointer;
+    color: #c96939;
+    /*como mudar a opacidade do background sem mudar 
+    a opacidade das letras?*/
 }
 
-#slider {
-    background-color: #f2ad86;
+#slideBar {
+    background-color: #f1ac88;
     height: 5px;
-    width: 150px;
-    opacity:.8;
+    width: 300px;
+    opacity: .9;
     margin-left: 0px;
-    border-radius: 1px;
+    border-radius: 3px;  
 }
